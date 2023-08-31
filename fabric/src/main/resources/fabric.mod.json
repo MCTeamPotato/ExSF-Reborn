@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "exstrangefoodreborn",
+  "version": "${version}",
+  "name": "ExSF Reborn",
+  "description": "ExStrangeFoodReborn Mod!",
+  "authors": [
+    "MCTeamPotato",
+    "Awei"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+  "license": "GPLv3",
+  "icon": "assets/exstrangefoodreborn/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "team.teampotato.ExSFReborn.fabric.ExampleModFabric"
+    ]
+  },
+  "depends": {
+    "fabric": "*",
+    "minecraft": ">=1.19.2",
+    "architectury": ">=6.5.77"
+  }
+}
