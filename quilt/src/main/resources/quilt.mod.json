@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "mixin": [
+    "ExSFReborn.mixins.json",
+    "ExSFReborn-common.mixins.json"
+  ],
+  "quilt_loader": {
+    "group": "${group}",
+    "id": "exstrangefoodreborn",
+    "version": "${version}",
+    "name": "ExSF Reborn",
+    "description": "ExStrangeFoodReborn Mod!",
+    "authors": ["MCTeamPotato","Awei"],
+    "contact": {
+      "sources": "https://github.com/architectury/architectury-templates"
+    },
+    "license": "GPLv3",
+    "icon": "assets/exstrangefoodreborn/icon.png",
+    "intermediate_mappings": "net.fabricmc:intermediary",
+    "environment": "*",
+    "entrypoints": {
+      "init": [
+        "team.teampotato.ExSFReborn"
+      ]
+    },
+    "depends": [
+      {
+        "id": "quilt_loader",
+        "version": "*"
+      },
+      {
+        "id": "quilt_base",
+        "version": "*"
+      },
+      {
+        "id": "minecraft",
+        "version": ">=1.19.2"
+      },
+      {
+        "id": "architectury",
+        "version": ">=6.5.77"
+      }
+    ]
+  }
+}
